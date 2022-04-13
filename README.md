@@ -2,7 +2,6 @@
 ## CI и CD проекта API YaMDb :mag: с применением Docker и GitHub Actions.
 
 ![workflow](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-___
 
 ## REST API для сервиса YaMDb — базы отзывов на произведения (фильмов, картин музыки и других сущностей).
 
