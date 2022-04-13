@@ -2,7 +2,6 @@ from django.shortcuts import render
 
 from .models import User
 
-
 ROLES = {
     'user': 'user',
     'moderator': 'moderator',

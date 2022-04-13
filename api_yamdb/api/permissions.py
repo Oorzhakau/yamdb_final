@@ -32,3 +32,4 @@ class IsAuthorOrAdminOrModerator(permissions.BasePermission):
                 return True
         elif request.method in permissions.SAFE_METHODS:
             return True
+        return None
