@@ -1,8 +1,8 @@
 # Cпринт 16
-## CI и CD проекта API YaMDb :mag: с применением Docker и GitHub Actions.
-
 ![yamdb-workflow](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+![yamdb-workflow](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+## CI и CD проекта API YaMDb :mag: с применением Docker и GitHub Actions.
 ## REST API для сервиса YaMDb — базы отзывов на произведения (фильмов, картин музыки и других сущностей).
 
 Проект **YaMDb** собирает **отзывы (Review)** пользователей на **произведения (Titles)**. Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (*Category*) может быть расширен.
