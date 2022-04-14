@@ -1,6 +1,5 @@
 # Cпринт 16
-![Yamdb workflow](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-
+[![Yamdb](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml)
 ## CI и CD проекта API YaMDb :mag: с применением Docker и GitHub Actions.
 ## REST API для сервиса YaMDb — базы отзывов на произведения (фильмов, картин музыки и других сущностей).
 
@@ -89,7 +88,9 @@ home/<ваш_username>/docker-compose.yaml и home/<ваш_username>/nginx/defau
    * TELEGRAM_TO - id пользователя, которому будут приходить оповещения
 об успешном деплои
 
-## Автор:
+## Ссылка на проект
+Проект развернут по адресу http://130.193.54.245/api/v1/
 
+## Автор:
 [Александр Ооржак](https://github.com/Oorzhakau)
 
