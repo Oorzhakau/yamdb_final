@@ -1,5 +1,5 @@
 # Cпринт 16
-[![Yamdb](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![Yamdb](https://github.com/Oorzhakau/yamdb_final/workflows/Yamdb-workflow/badge.svg?branch=master&event=push)](https://github.com/Oorzhakau/yamdb_final/actions/workflows/yamdb_workflow.yml)
 ## CI и CD проекта API YaMDb :mag: с применением Docker и GitHub Actions.
 ## REST API для сервиса YaMDb — базы отзывов на произведения (фильмов, картин музыки и других сущностей).
 
@@ -27,7 +27,8 @@
 * Nginx
 * Github Action
 
-##Описание Workflow
+## Описание Workflow
+
 Workflow состоит из четырёх шагов:
 1. Проверка кода на соответствие PEP8 и запуск тестов проекта;
 2. Сборка и публикация образа на DockerHub;

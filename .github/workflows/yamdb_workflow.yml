@@ -1,4 +1,4 @@
-name: Yamdb
+name: Yamdb-workflow
 
 on: [push]
 
@@ -55,7 +55,7 @@ jobs:
     needs: build_and_push_to_docker_hub
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     steps:
-      - name: executing remote ssh commands to deploy
+      - name: Executing remote ssh commands to deploy
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
